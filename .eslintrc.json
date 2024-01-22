@@ -1,0 +1,3 @@
+{
+    "extends": ["@contacto-io/eslint-config-common"]
+}

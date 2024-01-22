@@ -1,6 +1,6 @@
 {
   "name": "@contacto-io/eslint-config-common",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A shared common eslint between contacto apps",
   "main": "index.js",
   "publishConfig": {
@@ -10,12 +10,11 @@
     "index.js",
     "stylelint.js",
     "post-install.js",
-    "peer-dependency.js",
     "stylelint.config.js"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "cd ../../../ && node node_modules/@contacto-io/eslint-config-common/post-install.js && node node_modules/@contacto-io/eslint-config-common/peer-dependency.js"
+    "postinstall": "cd ../../../ && node node_modules/@contacto-io/eslint-config-common/post-install.js"
   },
   "repository": {
     "type": "git",
