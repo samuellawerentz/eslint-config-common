@@ -25,7 +25,7 @@ fs.readFile(packageJsonPath, "utf8", (err, data) => {
 
   let missingDeps = [];
   for (const [dep, version] of Object.entries(peerDependencies)) {
-    if (!packageJson.dependencies[dep] && !packageJson.devDependencies[dep]) {
+    if (!packageJson.devDependencies[dep]) {
       missingDeps.push(`${dep}@${version}`);
     }
   }
