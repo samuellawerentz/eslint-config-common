@@ -25,6 +25,10 @@ module.exports = {
     "import/no-unresolved": 0,
     "nonblock-statement-body-position": 0,
     "consistent-return": 0,
+    "react/function-component-definition": [
+      2,
+      { namedComponents: "arrow-function" },
+    ],
     "jsx-a11y/media-has-caption": 0,
     "react/jsx-props-no-spreading": 0,
     "react/no-unstable-nested-components": 0,
